@@ -17,8 +17,24 @@ Sqlite (database) ,
 
 
 ## 📦 Project Structure
-
-<pre> 📦 student_api_project/ # Main project folder ├── api/ # Django app for Student APIs │ ├── migrations/ # DB migration files │ ├── __init__.py # Package initializer │ ├── admin.py # Admin interface │ ├── apps.py # App config │ ├── models.py # Student model │ ├── serializers.py # DRF serializer │ ├── views.py # API views (CRUD) │ └── urls.py # App-level URLs │ ├── student_api_project/ # Main project config │ ├── __init__.py # Package initializer │ ├── settings.py # Project settings │ ├── urls.py # Root URLs │ └── wsgi.py # WSGI entry point │ ├── manage.py # Django CLI utility └── requirements.txt # Python dependencies </pre>
-
+📦 student_api_project/               # Main project folder
+├── api/                              # Django app for handling Student APIs
+│   ├── migrations/                   # Auto-generated DB migration files
+│   ├── __init__.py                   # Python package marker
+│   ├── admin.py                      # Register models in Django admin
+│   ├── apps.py                       # App configuration
+│   ├── models.py                     # Database model (Student)
+│   ├── serializers.py                # DRF serializer for Student model
+│   ├── views.py                      # API views (GET, POST, PUT, DELETE)
+│   ├── urls.py                       # App-level URL routes
+│
+├── student_api_project/             # Django project settings/config
+│   ├── __init__.py                   # Python package marker
+│   ├── settings.py                   # Global project settings
+│   ├── urls.py                       # Root URL configuration
+│   └── wsgi.py                       # WSGI entry point for deployment
+│
+├── manage.py                         # Django command-line utility
+└── requirements.txt                  # Project dependencies (optional but recommended)
 
 
