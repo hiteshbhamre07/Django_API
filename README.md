@@ -10,16 +10,16 @@ This is a simple Django REST API project to perform CRUD operations on a `Studen
 - Easy to extend with other CRUD operations (Update/Delete)
 
 ## 🛠 Technologies Used
-Python 3
-Django
-Django REST Framework
-Sqlite (database)
+Python 3 ,
+Django ,
+Django REST Framework ,
+Sqlite (database) ,
 
 
 ## 📦 Project Structure
 
-student_api_project/
-├── api/
+student_api_project/              # Main Folder          
+├── api/                         # Api App
 │ ├── migrations/
 │ ├── init.py
 │ ├── admin.py
@@ -28,7 +28,7 @@ student_api_project/
 │ ├── serializers.py
 │ ├── views.py
 │ └── urls.py
-├── student_api_project/
+├── student_api_project/       # Main Project Directory
 │ ├── init.py
 │ ├── settings.py
 │ ├── urls.py
