@@ -17,7 +17,9 @@ Sqlite (database) ,
 
 
 ## 📦 Project Structure
+
 📦 student_api_project/               # Main project folder
+
 ├── api/                              # Django app for handling Student APIs
 │   ├── migrations/                   # Auto-generated DB migration files
 │   ├── __init__.py                   # Python package marker
@@ -35,6 +37,6 @@ Sqlite (database) ,
 │   └── wsgi.py                       # WSGI entry point for deployment
 │
 ├── manage.py                         # Django command-line utility
-└── requirements.txt                  # Project dependencies (optional but recommended)
+└── requirements.txt                  # Project dependencie
 
 
